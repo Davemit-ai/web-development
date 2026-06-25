@@ -1,0 +1,38 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            position: relative;
+            margin: 0px auto;
+
+        }
+
+        main {
+
+            height: 80vh;
+            color: #df0000;
+            background-color: #0b5f73;
+            border: 3px solid #dd00ff;
+            min-height: 80vh;
+            margin: 23px auto;
+            width: 80vw;
+            padding: 16px;
+            overflow: auto;
+            font-size: 10px;
+            line-height: 1.6;
+
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            width: 100%;
+            margin: 0px auto;
+        }
