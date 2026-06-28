@@ -4,30 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>image svgs audio video and iframe in our website</title>
+    <title>basic website for example</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <img src="image.jpg" alt="Description">
-    <svg width="100" height="100">
-        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
-    </svg>
-    <audio controls>
-        <source src="audio.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <video width="320" height="240" controls>
-        <source src="video.mp4" type="video/mp4">
-        <!-- Subtitles/captions for the video -->
-        <track kind="captions" srclang="en" label="English" src="video_en.vtt">
-        <!-- Audio description file for users who need narrated descriptions -->
-        <track kind="descriptions" srclang="en" label="Descriptions" src="video_desc.vtt">
-        Your browser does not support the video tag.
-    </video>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/tVzUXW6siu0?si=p5c-RHlF7FZRgRB9"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <header id="header">
+        <span>home</span>
+        <span>contact</span>
+        <span>about</span>
+    </header>
+    <main>
+        <div id="content">
+            <span class="a">
+                <h1>Welcome to my basic website</h1>
+            </span>
+            <span class="b">
+                <p>This is a simple example of a basic website structure.</p>
+            </span>
+
+
+        </div>
+    </main>
+    
+    <div class="op">
+        <h1>Additional Content</h1>
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2024 Basic Website Example. All rights reserved.</p>
+    </footer>
+
 </body>
 
 </html>
